@@ -16,7 +16,7 @@ namespace HW_4_07_SimchaFund.Data
         public bool AlwaysInclude { get; set; }
         public DateTime Date { get; set; }
         public decimal Balance { get; set; }
-        public decimal AmountContributed { get; set; }  //doesn't rlly belong here but where else??
+        public decimal AmountContributed { get; set; }
     }
 
     public static class Extensions
